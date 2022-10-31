@@ -1,6 +1,6 @@
 import pyautogui as pt
 import time
-
+#user input here
 limit = input("Enter limit:")
 message = input("Enter message:")
 i = 0
@@ -15,5 +15,6 @@ while i < int(limit):
 
     pt.press("enter")
 
-    i+=1
+    i += 1
+    
     
